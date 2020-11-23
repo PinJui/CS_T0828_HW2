@@ -111,9 +111,21 @@ After training has completed, run the file **inference file** and **txt2json fil
 
 Then you can upload the json file to TA for mAP calculation!
 
-## Results
+## Results 
+After training for 10 epochs(nearly 10 hours on a RTX 2080 Ti GPU), some of the inference result in the json file is as below:
 
+**img1 file**
+**img2 file**
+```
+[
+{"bbox": [[6, 40, 39, 59]], "score": [0.9932959675788879], "label": [5]},
+{"bbox": [[7, 112, 28, 123], [6, 98, 29, 112], [7, 121, 28, 134]], "score": [0.908193051815033, 0.9809567928314209, 0.9090336561203003], "label": [1, 2, 10]}
+...
+]
+```
 ## Reference
-- <a name="[1]"> [1] [Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.](http://ufldl.stanford.edu/housenumbers/) </a>
-- <a name="[2]"> [2] [MMDetection: Open MMLab Detection Toolbox and Benchmark](https://github.com/open-mmlab/mmdetection.git) </a>
-- <a name="[3]"> [3] [mmdetection实战，训练扑克牌数据集（VOC格式）并测试计算mAP](https://blog.csdn.net/laizi_laizi/article/details/104256781) </a>
+<a name="[1]"> [1] [Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.](http://ufldl.stanford.edu/housenumbers/) </a>
+
+<a name="[2]"> [2] [MMDetection: Open MMLab Detection Toolbox and Benchmark](https://github.com/open-mmlab/mmdetection.git) </a>
+
+<a name="[3]"> [3] [mmdetection实战，训练扑克牌数据集（VOC格式）并测试计算mAP](https://blog.csdn.net/laizi_laizi/article/details/104256781) </a>
