@@ -85,8 +85,8 @@ Modify the file in `mmdetection/mmdet/datasets/voc.py` and change the names in `
 Modify the model config file(faster rcnn r50 in this homework) in `configs/_base_/models/faster_rcnn_r50_fpn.py`
 - change all the `num_classes` to the number of your classes(10 in this hw) **In the version of this hw is written, there's no need to add the background class**
 - change `dataset_type`,`data_root`,`img_scale`,`ann_file`,`img_prefix`,`img_scale` as image<a href="#[3]"> [3] </a> below
-<img src="https://img-blog.csdnimg.cn/20200212112033538.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xhaXppX2xhaXpp,size_16,color_FFFFFF,t_70" width="512" height="512">
-<img src="https://img-blog.csdnimg.cn/20200212112302685.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xhaXppX2xhaXpp,size_16,color_FFFFFF,t_70" width="512" height="512">
+<img src="https://img-blog.csdnimg.cn/20200212112033538.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xhaXppX2xhaXpp,size_16,color_FFFFFF,t_70" width="576" height="480">
+<img src="https://img-blog.csdnimg.cn/20200212112302685.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xhaXppX2xhaXpp,size_16,color_FFFFFF,t_70" width="576" height="480">
 
 Modify the desired runtime and schedule(epochs, step) setting in `configs/_base_/default_runtime.py` and `configs/_base_/schedules/schedule_1x.py`
 
