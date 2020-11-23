@@ -41,7 +41,7 @@ Here I use the mmdetection toolbox<a href="#[2]"> [2] </a> to train the model.
 
 #### Step 1: Dataset preprocessing
 
-Here I use the file **xxx** to generate the annotation file in pascal VOC xml format.
+Use the file **to_xml file** to generate the annotation file in pascal VOC xml format.
 
 Then reorganize the dataset as follow
 ```
@@ -107,7 +107,7 @@ else:
 
 Then the training process should have begun.
 #### Step 5: Inferencing
-After training has completed, run the file **inference file** and **txt2json** to get the result json file.
+After training has completed, run the file **inference file** and **txt2json file** to get the result json file.
 
 Then you can upload the json file to TA for mAP calculation!
 
