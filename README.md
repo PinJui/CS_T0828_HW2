@@ -63,11 +63,11 @@ Put all the xml annotation file inside `Annotations` folder.
 
 Then put all training and validation images inside `JPEGImages`
 
-And also generate `train.txt` and `valid.txt` which writes the pure filename **(no path names)** of the trainging images and validation images
+And also generate `train.txt` and `valid.txt` which writes the pure filename **(no path names)** of the training images and validation images
 
 #### Step 2: Install mmdetection
 
-Suppose the python enviroment is set(including installation of pytorch, cython and cuda etc. Then `cd` to your working directory and run `git clone https://github.com/open-mmlab/mmdetection.git` to install the mmdetection.
+Suppose the python enviroment is set. Then `cd` to your working directory and run `git clone https://github.com/open-mmlab/mmdetection.git` to install the mmdetection.
 
 Then run command
 ```
