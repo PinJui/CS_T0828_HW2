@@ -17,7 +17,7 @@ The given dataset is a subset of SVHN<a href="#[1]"> [1] </a>dataset, which has 
 
 Image Example:
 
-**[Training Image Example]**(**img link**)
+<img src="https://raw.githubusercontent.com/PinJui/CS_T0828_HW2/main/assets/train_1.png" width="200" height="100">
 
 The desired result is the detected digits recorded as a list of dictionary, which each dictionary corresponds to one test image.
 
@@ -44,7 +44,7 @@ Here I use the mmdetection toolbox<a href="#[2]"> [2] </a> to train the model.
 
 Use the file **to_xml file** to generate the annotation file in pascal VOC xml format.
 
-The example xml file is [here]()
+The example xml file is [here](https://github.com/PinJui/CS_T0828_HW2/blob/main/assets/1.xml)
 
 Then reorganize the dataset as follow
 ```
