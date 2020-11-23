@@ -24,9 +24,10 @@ The desired result is the detected digits recorded as a list of dictionary, whic
 The dictionary has three keys:
 - "bbox": List of bounding boxes in (y1, x1, y2, x2). (top,left,right,bottom)
 - "score": List of probability for the class of the detected digit
-- "label": List of class of the detected digit
+- "label": List of class of the detected digit, use class '10' for digit 0
 
 Result Example(for test image 1.png):
+
 ```
 {
  "bbox": [[6, 40, 39, 59]],
@@ -42,6 +43,8 @@ Here I use the mmdetection toolbox<a href="#[2]"> [2] </a> to train the model.
 #### Step 1: Dataset preprocessing
 
 Use the file **to_xml file** to generate the annotation file in pascal VOC xml format.
+
+The example xml file is [here]()
 
 Then reorganize the dataset as follow
 ```
@@ -114,8 +117,9 @@ Then you can upload the json file to TA for mAP calculation!
 ## Results 
 After training for 10 epochs(nearly 10 hours on a RTX 2080 Ti GPU), some of the inference result in the json file is as below:
 
-**img1 file**
-**img2 file**
+<img src="https://raw.githubusercontent.com/PinJui/CS_T0828_HW2/main/assets/1.png">
+<img src="https://raw.githubusercontent.com/PinJui/CS_T0828_HW2/main/assets/2.png">
+
 ```
 [
 {"bbox": [[6, 40, 39, 59]], "score": [0.9932959675788879], "label": [5]},
@@ -123,6 +127,7 @@ After training for 10 epochs(nearly 10 hours on a RTX 2080 Ti GPU), some of the 
 ...
 ]
 ```
+
 ## Reference
 <a name="[1]"> [1] [Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.](http://ufldl.stanford.edu/housenumbers/) </a>
 
