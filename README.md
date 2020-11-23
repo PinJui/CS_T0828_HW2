@@ -129,6 +129,8 @@ After training for 10 epochs(nearly 10 hours on a RTX 2080 Ti GPU), some of the 
 ```
 
 ## Reference
+> Great Thanks to all the referenced authors
+
 <a name="[1]"> [1] [Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.](http://ufldl.stanford.edu/housenumbers/) </a>
 
 <a name="[2]"> [2] [MMDetection: Open MMLab Detection Toolbox and Benchmark](https://github.com/open-mmlab/mmdetection.git) </a>
