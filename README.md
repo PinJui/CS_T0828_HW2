@@ -110,7 +110,7 @@ else:
 
 Then the training process should have begun.
 #### Step 5: Inferencing
-After training has completed, run the file **inference file** and **txt2json file** to get the result json file.
+After training has completed, run the file [inference2txt](https://github.com/PinJui/CS_T0828_HW2/blob/main/inference2txt.py) to get the prediction txt file and by adjusting the threshold in **txt2json file** you can choose the confidence of bbox to write into the result json file.
 
 Then you can upload the json file to TA for mAP calculation!
 
