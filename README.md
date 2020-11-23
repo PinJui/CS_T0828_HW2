@@ -11,7 +11,7 @@ Digit Detection on SVHN(Street View House Numbers) Dataset
 ## Introduction
 This homework requires to train a digit detector to detect the digits inside a given image.
 
-The given dataset is a subset of SVHN[1]dataset, which has 33042 training images and 13068 test image of Format 1 in the SVHN.
+The given dataset is a subset of SVHN<a href="#ez"> [1] </a>dataset, which has 33042 training images and 13068 test image of Format 1 in the SVHN.
 
 Image Example:
 
@@ -40,5 +40,5 @@ I use the mmdetection toolbox[2] to train the model for inference.
 ## Results
 
 ## Reference
-- [1] [Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.](http://ufldl.stanford.edu/housenumbers/)
+<a name="ez"> - [1] [Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.](http://ufldl.stanford.edu/housenumbers/) </a>
 - [2] [MMDetection: Open MMLab Detection Toolbox and Benchmark](https://github.com/open-mmlab/mmdetection.git)
