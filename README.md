@@ -42,7 +42,7 @@ Here I use the mmdetection toolbox<a href="#[2]"> [2] </a> to train the model.
 
 #### Step 1: Dataset preprocessing
 
-Use the file **to_xml file** to generate the annotation file in pascal VOC xml format.
+Use the file [load_data](https://github.com/PinJui/CS_T0828_HW2/blob/main/load_data.py)<a href="#[3]"> [3] </a> to generate the annotation file in pascal VOC xml format.
 
 The example xml file is [here](https://github.com/PinJui/CS_T0828_HW2/blob/main/assets/1.xml)
 
@@ -87,7 +87,7 @@ Modify the file in `mmdetection/mmdet/datasets/voc.py` and change the names in `
 
 Modify the model config file(faster rcnn r50 in this homework) in `configs/_base_/models/faster_rcnn_r50_fpn.py`
 - change all the `num_classes` to the number of your classes(10 in this hw) **In the version of this hw is written, there's no need to add the background class**
-- change `dataset_type`,`data_root`,`img_scale`,`ann_file`,`img_prefix`,`img_scale` as image<a href="#[3]"> [3] </a> below
+- change `dataset_type`,`data_root`,`img_scale`,`ann_file`,`img_prefix`,`img_scale` as image<a href="#[4]"> [4] </a> below
 <img src="https://img-blog.csdnimg.cn/20200212112033538.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xhaXppX2xhaXpp,size_16,color_FFFFFF,t_70" width="576" height="480">
 <img src="https://img-blog.csdnimg.cn/20200212112302685.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xhaXppX2xhaXpp,size_16,color_FFFFFF,t_70" width="576" height="480">
 
@@ -133,4 +133,6 @@ After training for 10 epochs(nearly 10 hours on a RTX 2080 Ti GPU), some of the 
 
 <a name="[2]"> [2] [MMDetection: Open MMLab Detection Toolbox and Benchmark](https://github.com/open-mmlab/mmdetection.git) </a>
 
-<a name="[3]"> [3] [mmdetection实战，训练扑克牌数据集（VOC格式）并测试计算mAP](https://blog.csdn.net/laizi_laizi/article/details/104256781) </a>
+<a name="[3]"> [3] [RetinaNET Object Detector for SVHN Dataset](https://github.com/AlessandroSaviolo/RetinaNET-Object-Detector.git) </a>
+
+<a name="[4]"> [4] [mmdetection实战，训练扑克牌数据集（VOC格式）并测试计算mAP](https://blog.csdn.net/laizi_laizi/article/details/104256781) </a>
